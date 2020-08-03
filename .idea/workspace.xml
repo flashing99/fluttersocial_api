@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="initial application">
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add posts table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,7 @@
       <updated>1596469018923</updated>
       <workItem from="1596469025565" duration="41000" />
       <workItem from="1596469070258" duration="587000" />
-      <workItem from="1596470882478" duration="4055000" />
+      <workItem from="1596470882478" duration="6306000" />
     </task>
     <task id="LOCAL-00001" summary="initial application">
       <created>1596471193235</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596471193235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add posts table">
+      <created>1596477413501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596477413502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial application" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial application" />
+    <MESSAGE value="add posts table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add posts table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2126" y="204" width="228" height="378" key="#Notifications" timestamp="1596469584185">
@@ -215,10 +223,10 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="1973" y="239" width="391" height="247" key="Github.ShareDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596469569868" />
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596471213779">
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596477430484">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596471213779" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596477430484" />
     <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
