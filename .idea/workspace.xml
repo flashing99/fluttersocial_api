@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="initial application" />
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="initial application">
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +30,12 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -146,11 +172,23 @@
       <updated>1596469018923</updated>
       <workItem from="1596469025565" duration="41000" />
       <workItem from="1596469070258" duration="587000" />
+      <workItem from="1596470882478" duration="192000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="2126" y="204" width="228" height="378" key="#Notifications" timestamp="1596469584185">
@@ -165,5 +203,13 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="1973" y="239" width="391" height="247" key="Github.ShareDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596469569868" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596471003958">
+      <screen x="1600" y="0" width="1280" height="680" />
+    </state>
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596471003958" />
+    <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
+      <screen x="1600" y="0" width="1280" height="680" />
+    </state>
+    <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596471031751" />
   </component>
 </project>
