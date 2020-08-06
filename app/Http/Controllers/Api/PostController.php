@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Comment;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CommentRequest;
 use App\Http\Requests\PostRequest;
 use App\Http\Resources\PostResource;
 use App\Post;
@@ -43,7 +45,7 @@ class PostController extends Controller
 
         return new PostResource(
             Post::create([
-                'user_id' => 33,
+                'user_id'   => auth()->user()->id,
                 'body'      => $request->body,
                 'status'    => $request->has('status') ? $request->status : 'draft'
             ])
@@ -93,5 +95,16 @@ class PostController extends Controller
         $this->authorize('delete', $post);
         Post::destroy($post->id);
         return response()->json([]);
+    }
+
+    public function comment(CommentRequest $request, Post $post){
+        Comment::create([
+            'user_id' => auth()->user()->id,
+            'body'    => $request->body,
+            'commentable_id' => $post->id,
+            'commentable_type' => Post::class
+        ]);
+        $post->refresh();
+        return new PostResource($post);
     }
 }

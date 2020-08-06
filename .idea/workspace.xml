@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add authentication">
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add post policy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +188,7 @@
       <workItem from="1596470882478" duration="26588000" />
       <workItem from="1596609685253" duration="9877000" />
       <workItem from="1596670022163" duration="310000" />
-      <workItem from="1596698630121" duration="4657000" />
+      <workItem from="1596698630121" duration="9658000" />
     </task>
     <task id="LOCAL-00001" summary="initial application">
       <created>1596471193235</created>
@@ -231,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596700532979</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add post policy">
+      <created>1596705450392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596705450393</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add post policy">
+      <created>1596705463210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596705463210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +270,8 @@
     <MESSAGE value="add comments table" />
     <MESSAGE value="add post and comment Resources" />
     <MESSAGE value="add authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="add authentication" />
+    <MESSAGE value="add post policy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add post policy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1867" y="19" key="#Inspections" timestamp="1596699459735">
@@ -278,10 +294,10 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="2077" y="264" key="NewPhpFileDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596611519706" />
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596700540398">
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596705468901">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596700540398" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596705468901" />
     <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>

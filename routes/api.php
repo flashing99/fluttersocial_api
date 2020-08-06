@@ -18,3 +18,5 @@ Route::post('register','Api\AuthController@register');
 Route::post('login','Api\AuthController@login');
 Route::resource('posts','Api\\PostController');  // this is contain all PostController method in one line
 Route::resource('comments','Api\\CommentController');
+
+Route::post('posts/{post}/comment', 'Api\\PostController@comment'); // to create a new comment
