@@ -15,10 +15,12 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'name_required' => 'Name is required',
-    'email_required' => 'Email is required',
-    'email_unique' => 'Email must be unique',
-    'password_required' => 'Password is required',
-    'password_min' => 'Password is too short',
+    'name_required' => 'أسم المستخدم مطلوب',
+    'email_required' => 'إيميل المستخدم مطلوب',
+    'email_unique' => 'يبدو ان الأيميل قد تم أستخدامه, يرجى التسجيل بإيميل أخر',
+    'password_required' => 'رمز السري للمستخدم مطلوب',
+    'password_min' => 'كلمه المرور قصيرة يجب ان تكون على الاقل 8 احرف',
+
+
 
 ];

@@ -3,12 +3,24 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\PostRequest;
 use App\Http\Resources\PostResource;
 use App\Post;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    /**
+     * PostController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware([
+            'auth:sanctum'
+        ]);
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -22,23 +34,31 @@ class PostController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param PostRequest $request
+     * @return PostResource
      */
-    public function store(Request $request)
+    public function store(PostRequest $request)
     {
-        //
+        // to store data to post table
+
+        return new PostResource(
+            Post::create([
+                'user_id' => 33,
+                'body'      => $request->body,
+                'status'    => $request->has('status') ? $request->status : 'draft'
+            ])
+        );
     }
 
     /**
      * Display the specified resource.
      *
      * @param  \App\Post  $post
-     * @return \Illuminate\Http\Response
+     * @return PostResource
      */
     public function show(Post $post)
     {
-        //
+        return new PostResource($post);
     }
 
     /**

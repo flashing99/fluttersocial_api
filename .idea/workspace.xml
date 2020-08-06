@@ -19,11 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add comments table">
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add post and comment Resources">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fluttersocial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fluttersocial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,10 +160,14 @@
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectId" id="1favSg4bhpfXXeidfN3RZNZdUjT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -153,9 +175,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\fluttersocial\resources\lang\en" />
+      <recent name="C:\laragon\www\fluttersocial\resources\lang\ar" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -175,7 +204,10 @@
       <updated>1596469018923</updated>
       <workItem from="1596469025565" duration="41000" />
       <workItem from="1596469070258" duration="587000" />
-      <workItem from="1596470882478" duration="23619000" />
+      <workItem from="1596470882478" duration="26588000" />
+      <workItem from="1596609685253" duration="9877000" />
+      <workItem from="1596670022163" duration="310000" />
+      <workItem from="1596698630121" duration="1848000" />
     </task>
     <task id="LOCAL-00001" summary="initial application">
       <created>1596471193235</created>
@@ -205,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596489216504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add post and comment Resources">
+      <created>1596572450240</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596572450240</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,14 +260,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial application" />
     <MESSAGE value="add posts table" />
     <MESSAGE value="add comments table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments table" />
+    <MESSAGE value="add post and comment Resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="add post and comment Resources" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1867" y="19" key="#Inspections" timestamp="1596699459735">
+      <screen x="1600" y="0" width="1280" height="680" />
+    </state>
+    <state x="1867" y="19" key="#Inspections/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596699459735" />
     <state x="2126" y="204" width="228" height="378" key="#Notifications" timestamp="1596469584185">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
@@ -241,10 +286,14 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="1973" y="239" width="391" height="247" key="Github.ShareDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596469569868" />
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596489225406">
+    <state x="2077" y="264" key="NewPhpFileDialog" timestamp="1596611519706">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596489225406" />
+    <state x="2077" y="264" key="NewPhpFileDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596611519706" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596572458879">
+      <screen x="1600" y="0" width="1280" height="680" />
+    </state>
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596572458879" />
     <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
