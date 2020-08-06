@@ -66,21 +66,32 @@ class PostController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Post  $post
-     * @return \Illuminate\Http\Response
+     * @return PostResource
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $this->authorize('update', $post);
+        if($request->has('status')){
+            $post->status = $request->status;
+        }
+        if($request->has('body')){
+            $post->body = $request->body;
+        }
+
+        $post->save();
+        return new PostResource($post);
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param  \App\Post  $post
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\JsonResponse
      */
     public function destroy(Post $post)
     {
-        //
+        $this->authorize('delete', $post);
+        Post::destroy($post->id);
+        return response()->json([]);
     }
 }
