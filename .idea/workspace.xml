@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add comment to a post">
-      <change beforePath="$PROJECT_DIR$/.idea/fluttersocial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fluttersocial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add jobs, mail and telescope">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +199,7 @@
       <workItem from="1596996760250" duration="111000" />
       <workItem from="1596996898970" duration="96000" />
       <workItem from="1597091422500" duration="2095000" />
-      <workItem from="1597140681316" duration="4068000" />
+      <workItem from="1597140681316" duration="4424000" />
     </task>
     <task id="LOCAL-00001" summary="initial application">
       <created>1596471193235</created>
@@ -269,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596729239755</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add jobs, mail and telescope">
+      <created>1597151201107</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597151201107</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +297,8 @@
     <MESSAGE value="add authentication" />
     <MESSAGE value="add post policy" />
     <MESSAGE value="add comment to a post" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment to a post" />
+    <MESSAGE value="add jobs, mail and telescope" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jobs, mail and telescope" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1867" y="19" key="#Inspections" timestamp="1596699459735">
@@ -322,10 +325,10 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="1742" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596996989609" />
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596729247041">
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1597151211606">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596729247041" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1597151211606" />
     <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>

@@ -5,11 +5,13 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
+use App\Mail\NewUserRegistered;
 use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class AuthController extends Controller
 {
@@ -25,6 +27,8 @@ class AuthController extends Controller
 
         // after create user, create access token for this user
         $token = $user->createToken('access_token');
+
+        Mail::to($user)->queue(new NewUserRegistered($user));
 
         // then return user ID to use it in login or any thing else in application
         return response()->json([
