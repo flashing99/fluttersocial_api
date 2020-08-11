@@ -1,5 +1,7 @@
 <?php
 
+use App\Mail\NewUserRegistered;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('test-email', function (){
+    $user = \App\User::find(19); // first we get the user id
+    Mail::to($user)->queue(new NewUserRegistered($user)); // then by Mail system send email in queue to user
+});

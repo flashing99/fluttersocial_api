@@ -99,10 +99,10 @@ class PostController extends Controller
 
     public function comment(CommentRequest $request, Post $post){
         Comment::create([
-            'user_id' => auth()->user()->id,
-            'body'    => $request->body,
-            'commentable_id' => $post->id,
-            'commentable_type' => Post::class
+            'user_id'           => auth()->user()->id,
+            'body'              => $request->body,
+            'commentable_id'    => $post->id,
+            'commentable_type'  => Post::class
         ]);
         $post->refresh();
         return new PostResource($post);

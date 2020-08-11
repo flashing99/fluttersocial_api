@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add post policy">
+    <list default="true" id="8fefb19f-cad3-463b-b987-6a9fa5db3fbe" name="Default Changelist" comment="add comment to a post">
+      <change beforePath="$PROJECT_DIR$/.idea/fluttersocial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fluttersocial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +148,11 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
+      <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
     </include_path>
   </component>
   <component name="ProjectId" id="1favSg4bhpfXXeidfN3RZNZdUjT" />
@@ -160,6 +170,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -188,7 +199,12 @@
       <workItem from="1596470882478" duration="26588000" />
       <workItem from="1596609685253" duration="9877000" />
       <workItem from="1596670022163" duration="310000" />
-      <workItem from="1596698630121" duration="9658000" />
+      <workItem from="1596698630121" duration="11167000" />
+      <workItem from="1596894533523" duration="598000" />
+      <workItem from="1596996760250" duration="111000" />
+      <workItem from="1596996898970" duration="96000" />
+      <workItem from="1597091422500" duration="2095000" />
+      <workItem from="1597140681316" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="initial application">
       <created>1596471193235</created>
@@ -246,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596705463210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add comment to a post">
+      <created>1596729239755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596729239755</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +294,8 @@
     <MESSAGE value="add post and comment Resources" />
     <MESSAGE value="add authentication" />
     <MESSAGE value="add post policy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add post policy" />
+    <MESSAGE value="add comment to a post" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment to a post" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1867" y="19" key="#Inspections" timestamp="1596699459735">
@@ -294,10 +318,14 @@
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
     <state x="2077" y="264" key="NewPhpFileDialog/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596611519706" />
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596705468901">
+    <state x="1742" y="0" key="SettingsEditor" timestamp="1596996989609">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
-    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596705468901" />
+    <state x="1742" y="0" key="SettingsEditor/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596996989609" />
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2" timestamp="1596729247041">
+      <screen x="1600" y="0" width="1280" height="680" />
+    </state>
+    <state x="1833" y="74" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1280.680@1600.0.1280.680" timestamp="1596729247041" />
     <state x="2029" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596471031751">
       <screen x="1600" y="0" width="1280" height="680" />
     </state>
